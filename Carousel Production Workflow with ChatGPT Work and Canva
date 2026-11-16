@@ -1,0 +1,62 @@
+## Carousel Production Workflow with ChatGPT Work and Canva
+
+I use this workflow to create Canva carousels from an existing design template. I draft and review the content and design guidelines in a regular ChatGPT conversation. Then I bring the guidelines and the Canva design link into ChatGPT Work, where I use the Canva integration to prepare new carousels.
+
+Each Canva page is a continuous horizontal strip measuring **7560 × 1440 px**. It contains **seven slides**, each measuring **1080 × 1440 px**. In this workflow, a **page** is a complete carousel, and a **slide** is one of its seven panels.
+
+### 1. Draft the guidelines in a regular ChatGPT conversation
+
+> I want to create a reusable design standard for producing carousels with ChatGPT Work and Canva. Write guidelines that help me maintain a consistent visual identity and a cohesive layout across slides.
+>
+> Each Canva page is a 7560 × 1440 px horizontal strip containing seven continuous slides. Each slide measures 1080 × 1440 px.
+>
+> The goal of the carousels is [describe what you want to achieve and who the content is for]. I want to prioritize [describe your priorities, such as explaining topics clearly, promoting products, or covering trending topics in the industry].
+>
+> Include rules for choosing relevant topics, selecting eye-catching images that support the content, avoiding image repetition, and keeping a recognizable layout across carousels. Make sure the seven slides flow together and that each slide remains legible when viewed on its own.
+
+This prompt gave me a set of guidelines covering the Canva layout, brand identity, topic research, the role of each slide, image selection, typography, and final review. I check and refine the guidelines before using them in Work.
+
+### 2. Share the Canva template and guidelines in ChatGPT Work
+
+With the Canva integration connected, I share the design link and paste the revised guidelines into the conversation.
+
+> This is the Canva design I want to use as a template for future carousels.
+>
+> **Canva folder** — [folder name]  
+> **Design link** — [Canva design link]
+>
+> Follow these guidelines when creating new carousels from this template.
+>
+> [Paste the revised guidelines here.]
+>
+> Save these guidelines and use them as a reference for future requests in this conversation.
+
+### 3. Duplicate the template page
+
+> Open the Canva design using the link I shared. Find the carousel template page and duplicate it once for each new carousel we plan to create. Preserve the original template page and tell me the page numbers of the copies before continuing.
+
+### 4. Generate content on the selected pages
+
+**When I already have a topic**
+
+> Create a carousel about [topic] on each of the following Canva pages: [page numbers]. Follow the guidelines in this conversation and preserve the seven-slide layout on each page.
+
+**When I want to explore trending topics**
+
+> Research trending topics in [industry] and select those most relevant to the target audience and the brand’s communication goals. Create one carousel per topic on Canva pages [page numbers], following the guidelines in this conversation. Tell me which topic you used on each page.
+
+### 5. Review and explicitly save the changes
+
+I review the content and layout in Canva and request any adjustments. After reviewing the edits, I send **“Save”** as a separate command to save the changes to the design. In my workflow, I use the Portuguese command **“Salve.”**
+
+> Save.
+
+If I want to confirm which pages were updated, I use a more specific request.
+
+> Save the changes to the Canva design and tell me which pages were updated.
+
+### 6. Update the guidelines for future carousels
+
+When an adjustment should become part of the standard, I update the guidelines in the same conversation.
+
+> Update the guidelines with this rule: [describe the adjustment]. Save this rule and apply it to the next carousels we create in this conversation.
